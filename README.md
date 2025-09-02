@@ -28,6 +28,9 @@ Red-vs-Blue-Quiz/
 ├─ package.json # Node.js Projektdatei
 └─ public/## Installation
 
+---
+
+## Installation
 1. Repository klonen:
 
 git clone https://github.com/henmoding789/Red-VS-Blue.git 
@@ -52,7 +55,9 @@ Team Blue: http://localhost:3000/blue.html
 
 Team Red: http://localhost:3000/red.html
 
-Fragen anpassen
+---
+
+## Fragen anpassen
 
 Die Fragen befinden sich in config.json.
 Beispiel:
