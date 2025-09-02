@@ -1,0 +1,14 @@
+{
+  "questions": [
+    { "q": "5 + 3 = ?", "options": ["6", "7", "8", "9"], "correct": "8" },
+    { "q": "Hauptstadt von Deutschland?", "options": ["Berlin", "Hamburg", "München", "Bonn"], "correct": "Berlin" },
+    { "q": "Welche Farbe hat der Himmel?", "options": ["Blau", "Rot", "Grün", "Gelb"], "correct": "Blau" },
+    { "q": "Wie viel ML passen in einen normalen Becher?", "options": ["250ML", "500ML", "400ML", "150ML"], "correct": "250ML" },
+    { "q": "2 * 6 = ?", "options": ["10", "12", "14", "16"], "correct": "12" },
+    { "q": "Wie viele Kontinente gibt es?", "options": ["5", "6", "7", "8"], "correct": "7" },
+    { "q": "Welcher Planet ist der größte?", "options": ["Mars", "Saturn", "Jupiter", "Venus"], "correct": "Jupiter" },
+    { "q": "Welche Sprache spricht man in Spanien?", "options": ["Französisch", "Deutsch", "Spanisch", "Italienisch"], "correct": "Spanisch" },
+    { "q": "10 - 4 = ?", "options": ["4", "5", "6", "7"], "correct": "6" },
+    { "q": "Hauptstadt von Frankreich?", "options": ["Madrid", "Paris", "Rom", "London"], "correct": "Paris" }
+  ]
+}
