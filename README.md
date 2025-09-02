@@ -49,11 +49,11 @@ node server.js
 
 Browser öffnen:
 
-PC / Scoreboard: http://localhost:3000
+PC / Scoreboard: http://localhost
 
-Team Blue: http://localhost:3000/blue.html
+Team Blue: http://localhost/blue.html
 
-Team Red: http://localhost:3000/red.html
+Team Red: http://localhost/red.html
 
 ---
 
