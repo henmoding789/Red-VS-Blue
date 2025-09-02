@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Quiz Arena</title></head>
+<body style="background:#111; color:white; text-align:center;">
+  <h1 id="question" style="font-family: sans-serif;"></h1>
+  <div id="score" style="font-family: sans-serif; font-size: 60px;">Blau:0 | Rot:0</div>
+  <button onclick="next()" style="font-size: 20px;">Nächste Frage</button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+    socket.on("newQuestion", data => {
+      document.getElementById("question").innerText = data.question.q;
+      document.getElementById("score").innerText = "Blau: " + data.scores.blue + " | Rot: " + data.scores.red;
+    });
+
+    socket.on("gameOver", scores => {
+      document.getElementById("question").innerText = "Spiel vorbei!";
+      document.getElementById("score").innerText = "Blau: " + scores.blue + " | Rot: " + scores.red;
+    });
+
+    function next() {
+      socket.emit("nextQuestion");
+    }
+  </script>
+</body>
+</html>
